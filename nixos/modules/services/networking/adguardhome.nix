@@ -15,6 +15,7 @@ let
   baseConfig = {
     bind_host = cfg.host;
     bind_port = cfg.port;
+    schema_version = 12;
   };
 
   configFile = pkgs.writeTextFile {
